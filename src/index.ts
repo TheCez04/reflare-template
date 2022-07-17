@@ -6,9 +6,9 @@ const handleRequest = async (
   const reflare = await useReflare();
 
   reflare.push({
-    path: '/*',
+    path: '/nyaa',
     upstream: {
-      domain: 'httpbin.org',
+      domain: 'nyaa.si',
       protocol: 'https',
     },
   });
